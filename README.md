@@ -1,2 +1,3 @@
-# math_examples
+# Math examples
+
 Example code of mathematical operations.
