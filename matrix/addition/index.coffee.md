@@ -1,5 +1,12 @@
 # Matrix addition
 
+Addition is commutative, so `A + B == B + A`.
+
+
+## Variables
+
+Input matrices.
+
 	A = [
 		[1, 2, 3]
 		[4, 5, 6]
@@ -10,11 +17,23 @@
 		[40, 50, 60]
 	]
 
+Expected output matrix.
+
+	expected = [
+		[11, 22, 33]
+		[44, 55, 66]
+	]
+
+Matrix from the input matrices.
+
 	result = []
 
-Get the number of rows.
+Number of rows.
 
 	row_count = Math.min A.length, B.length
+
+
+## Main loop
 
 Loop and save a reference to each of the rows.
 `i in [0...n]` works like `0 <= i < n`.
@@ -37,4 +56,9 @@ Get the number of columns.
 
 		result.push result_row
 
+
+## Results
+
 	console.log result
+	console.log expected
+	#console.log `result == expected`
