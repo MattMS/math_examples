@@ -2,10 +2,14 @@
 
 Transposition is commutative, so `transpose(transpose(A)) is A`.
 
+Set the input matrix.
+
 	A = [
 		[1, 2, 3]
 		[4, 5, 6]
 	]
+
+Set the expected output matrix.
 
 	expected = [
 		[1, 4]
@@ -13,7 +17,7 @@ Transposition is commutative, so `transpose(transpose(A)) is A`.
 		[3, 6]
 	]
 
-Store the transposed matrix.
+Store the transposed matrix from the input matrix.
 
 	result = []
 	
@@ -32,14 +36,22 @@ Store the number of rows.
 Keep looping while there are more columns to transpose.
 
 	while more_columns
+
+While looping the input columns, the result rows are added.
+
 		result_row = []
 
 Loop each of the rows on the same column.
 
 		for j in [0...row_count]
+
+Make sure this row has the column value.
+
 			if A[j].length <= i
 				more_columns = no
 				break
+
+Add the column value to the result row.
 
 			result_row.push A[j][i]
 
@@ -48,9 +60,11 @@ Only add the row if the column was complete.
 		if more_columns
 			result.push result_row
 
-Move to the next column.
+Move to the next column index.
 
 		i += 1
+
+Display the results.
 
 	console.log result
 	console.log expected
