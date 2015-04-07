@@ -2,14 +2,17 @@
 
 Transposition is commutative, so `transpose(transpose(A)) is A`.
 
-Set the input matrix.
+
+## Variables
+
+Input matrix.
 
 	A = [
 		[1, 2, 3]
 		[4, 5, 6]
 	]
 
-Set the expected output matrix.
+Expected output matrix.
 
 	expected = [
 		[1, 4]
@@ -17,7 +20,7 @@ Set the expected output matrix.
 		[3, 6]
 	]
 
-Store the transposed matrix from the input matrix.
+Transposed matrix from the input matrix.
 
 	result = []
 	
@@ -29,9 +32,12 @@ Flag to show if there are more columns to transpose.
 
 	more_columns = yes
 
-Store the number of rows.
+Number of rows.
 
 	row_count = A.length
+
+
+## Main loop
 
 Keep looping while there are more columns to transpose.
 
@@ -63,6 +69,9 @@ Only add the row if the column was complete.
 Move to the next column index.
 
 		i += 1
+
+
+## Results
 
 Display the results.
 
