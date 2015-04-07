@@ -32,8 +32,6 @@ Number of rows.
 ## Main loop
 
 Loop and save a reference to each of the rows.
-`i in [0...n]` works like `0 <= i < n`.
-For last value: `..` is inclusive and `...` is exclusive.
 
 	for j in [0...row_count]
 		A_row = A[j]
