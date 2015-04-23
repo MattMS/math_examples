@@ -17,23 +17,20 @@
 ## Formula
 
 ```coffee
-n_sqrt = (a, b, c)->
+f = (a, b, c)->
 	ac4 = 4 * a * c
 	bb = b * b
 	bb_ac4 = bb - ac4
-	Math.sqrt bb_ac4
+	n_sqrt = Math.sqrt bb_ac4
 
-x1 = (a, b, c)->
 	a2 = 2 * a
 	neg_b = -1 * b
-	n = neg_b + n_sqrt a, b, c
-	n / a2
 
-x2 = (a, b, c)->
-	a2 = 2 * a
-	neg_b = -1 * b
-	n = neg_b - n_sqrt a, b, c
-	n / a2
+	x1_top = neg_b + n_sqrt
+	x1 = x1_top / a2
+
+	x2_top = neg_b - n_sqrt
+	x2 = x2_top / a2
 ```
 
 
