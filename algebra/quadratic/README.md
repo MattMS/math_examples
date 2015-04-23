@@ -1,16 +1,16 @@
 # Quadratic equation and formula
 
-- x is the only unknown (univariate), a non-zero integer.
+- `x` is the only unknown (univariate), a non-zero integer.
 
-- a, b and c are constants.
+- `a`, `b` and `c` are constants.
 
-- a != 0.
+- `a isnt 0`.
 
 
 ## General quadratic equation
 
 ```coffee
-(a * x * x) + (b * x) + c = 0
+0 is (a * x * x) + (b * x) + c
 ```
 
 
@@ -23,14 +23,16 @@ n_sqrt = (a, b, c)->
 	bb_ac4 = bb - ac4
 	Math.sqrt bb_ac4
 
-a2 = 2 * a
-
 x1 = (a, b, c)->
-	n = -b + n_sqrt a, b, c
+	a2 = 2 * a
+	neg_b = -1 * b
+	n = neg_b + n_sqrt a, b, c
 	n / a2
 
 x2 = (a, b, c)->
-	n = -b - n_sqrt a, b, c
+	a2 = 2 * a
+	neg_b = -1 * b
+	n = neg_b - n_sqrt a, b, c
 	n / a2
 ```
 
@@ -38,11 +40,13 @@ x2 = (a, b, c)->
 ## Factoring
 
 ```coffee
-(px + q)(rx + s) == 0
+0 is ((p * x) + q) * ((r * x) + s)
 
-x1 = -q / p
+neg_q = -1 * q
+x1 = neg_q / p
 
-x2 = -s / r
+neg_s = -1 * s
+x2 = neg_s / r
 ```
 
 
@@ -51,7 +55,8 @@ x2 = -s / r
 The golden ratio is found as the solution of the quadratic equation:
 
 ```coffee
-(x * x) - x - 1 is 0
+0 is (x * x) - x - 1
+
 (x * x) is (x + 1)
 ```
 
