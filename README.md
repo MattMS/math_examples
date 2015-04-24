@@ -2,6 +2,12 @@
 
 Example code of mathematical operations.
 
+- [Algebra](./algebra/)
+
+- [Calculus](./calculus/)
+
+- [Geometry](./geometry/)
+
 - [Matricies](./matrix/)
 
 
