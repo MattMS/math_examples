@@ -1,6 +1,9 @@
 # Math examples
 
-Example code of mathematical operations.
+- [Mathematics (Wikipedia)](https://en.wikipedia.org/wiki/Mathematics)
+
+
+## Topics
 
 - [Algebra](./algebra/)
 
