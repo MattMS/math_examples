@@ -3,7 +3,7 @@
 You should probably ignore this for now.
 I will remove this text once I think there is something useful in here.
 
-- [Mathematics (Wikipedia)](https://en.wikipedia.org/wiki/Mathematics)
+- [Mathematics on Wikipedia](https://en.wikipedia.org/wiki/Mathematics)
 
 
 ## Topics

@@ -2,9 +2,6 @@
 
 Study of operations.
 
+- [Algebra on Wikipedia](https://en.wikipedia.org/wiki/Algebra)
 
-## Links
-
-- [Algebra (Wikipedia)](https://en.wikipedia.org/wiki/Algebra)
-
-- [Elementary algebra (Wikipedia)](https://en.wikipedia.org/wiki/Elementary_algebra)
+- [Elementary algebra on Wikipedia](https://en.wikipedia.org/wiki/Elementary_algebra)
